@@ -6,7 +6,7 @@ function BinarioADecimal(num) {
    for(var i = 0; i<num.length; i++){
       decimal = decimal + num[i] * 2**(num.length-1-i)
    }
-   return decimal
+   return decimal.toExponential.
 }
 
 function DecimalABinario(num) {}
